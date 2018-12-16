@@ -1,0 +1,45 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="container" style="margin-top: 50px">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/pexels-photo-590020.jpeg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Analytics</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                    <p class="card-text">
+                        <small class="text-muted">www.analytics.com</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/artificial-intelligence.jpg' %}"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Artificial Intelligence</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                    <p class="card-text">
+                        <small class="text-muted">www.iot/ai.com</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/android.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Android</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                    <p class="card-text">
+                        <small class="text-muted">www.android.com</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+

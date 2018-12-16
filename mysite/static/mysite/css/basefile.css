@@ -1,0 +1,15 @@
+
+body{
+    color:  blue;
+    background: mediumturquoise;
+}
+
+.footer{
+    position: absolute;
+    margin-top: 20px !important;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    bottom: 0px;
+    background: black;
+    color: whitesmoke;
+}
